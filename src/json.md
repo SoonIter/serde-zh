@@ -1,6 +1,6 @@
-# JSON 中的 Structs 和 Enums
+# JSON 中的 Struct 和 Enum
 
-一个 Serde `Serializer` 负责选择 Rust struct 和 enums 在该格式中的表示约定。以下是 [`serde_json`](https://github.com/serde-rs/json) 数据格式选择的约定。为了保持一致性，在可能的情况下鼓励其他人类可读格式制定类似的约定。
+Serde 的 `Serializer` 负责选择 Rust struct 和 enum 在该格式中的表示约定。以下是 [`serde_json`](https://github.com/serde-rs/json) 数据格式的默认选择。为了保持一致，鼓励其他人类可读格式在可能的情况下制定类似的约定。
 
 ```rust
 # #![allow(dead_code, unused_variables)]

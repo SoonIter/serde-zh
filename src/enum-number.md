@@ -1,4 +1,4 @@
-# 将枚举序列化为数字
+# 将 enum 序列化为 number
 
 [serde\_repr] crate 提供了替代派生宏，派生相同的 Serialize 和 Deserialize traits，但是委托给类似 C 的 enum 的底层表示。例如，在 JSON 中，这允许类似 C 的 enum 以整数而不是字符串的形式格式化。
 

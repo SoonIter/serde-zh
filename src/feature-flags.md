@@ -1,4 +1,4 @@
-# 功能标志
+# 功能标志(Feature flags)
 
 `serde` crate 定义了一些 [Cargo 功能] 来启用在各种自由环境中使用 Serde。
 

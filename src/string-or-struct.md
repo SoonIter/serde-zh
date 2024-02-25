@@ -1,4 +1,4 @@
-# 反序列化字符串或结构体
+# 反序列化 string 或 struct
 
 [`docker-compose.yml`](https://docs.docker.com/compose/compose-file/#/build) 配置文件有一个 "build" 键，该键可以是一个字符串或结构体。
 
