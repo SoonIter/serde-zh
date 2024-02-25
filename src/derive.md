@@ -16,7 +16,7 @@ Serde 提供了一个宏 `derive` 来为您 crate 中定义的数据结构生成
 
 这是 `Cargo.toml`：
 
-!FILENAME Cargo.toml
+<!-- !FILENAME Cargo.toml -->
 ```toml
 [package]
 name = "my-crate"
@@ -32,8 +32,8 @@ serde_json = "1.0"
 
 现在这是在 `src/main.rs` 中使用 Serde 的自定义派生：
 
-!FILENAME src/main.rs
-!PLAYGROUND 1dbc76000e9875fac72c2865748842d7
+<!-- !FILENAME src/main.rs -->
+<!-- !PLAYGROUND 1dbc76000e9875fac72c2865748842d7 -->
 ```rust
 use serde::{Serialize, Deserialize};
 

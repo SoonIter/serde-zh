@@ -90,8 +90,8 @@ Serde 是建立在 Rust 强大的特征系统之上.
 
 使用派生宏就像这样:
 
-!PLAYGROUND 72755f28f99afc95e01d63174b28c1f5
-```rust
+<!-- !PLAYGROUND 72755f28f99afc95e01d63174b28c1f5 -->
+```rust,editable
 use serde::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize, Debug)]

@@ -2,7 +2,7 @@
 
 这使用 [`chrono`](https://github.com/chronotope/chrono) crate 来序列化和反序列化包含自定义日期格式的 JSON 数据。 `with` 属性用于提供处理自定义表示的逻辑。
 
-!PLAYGROUND 2ef7c347c76b030fe7e8c59ce9efccd3
+<!-- !PLAYGROUND 2ef7c347c76b030fe7e8c59ce9efccd3 -->
 ```rust
 use chrono::{DateTime, Utc};
 use serde::{Serialize, Deserialize};

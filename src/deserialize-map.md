@@ -1,6 +1,6 @@
 # 为自定义 map 类型实现 Deserialize
 
-!PLAYGROUND 72f10ca685c08f8afeb618efdabfed6a
+<!-- !PLAYGROUND 72f10ca685c08f8afeb618efdabfed6a -->
 ```rust
 use std::fmt;
 use std::marker::PhantomData;

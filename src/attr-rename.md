@@ -1,6 +1,6 @@
 # 将字段序列化为驼峰命名
 
-!PLAYGROUND b2852ed8e696999ccd9d2ac668b848bf
+<!-- !PLAYGROUND b2852ed8e696999ccd9d2ac668b848bf -->
 ```rust
 use serde::Serialize;
 

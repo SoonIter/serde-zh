@@ -1,6 +1,6 @@
 # 字段的默认值
 
-!PLAYGROUND b238170d32f604295a1110ad912ef3ee
+<!-- !PLAYGROUND b238170d32f604295a1110ad912ef3ee -->
 ```rust
 use serde::Deserialize;
 

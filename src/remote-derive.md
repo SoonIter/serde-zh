@@ -16,7 +16,7 @@ Rust 的[孤儿规则]要求实现 trait 的 crate 或实现 trait 的类型必�
 
 为了解决这个问题，Serde 提供了一种方法，可以为其他 crate 中类型派生 `Serialize` 和 `Deserialize` 实现。唯一需要注意的是，你必须提供类型的定义让 Serde 的派生可以处理。在编译时，serde 将检查你提供的定义中的所有字段是否和远程类型中的字段匹配。
 
-!PLAYGROUND 0a344c9dfc4cf965e66125ebdfbc48b8
+<!-- !PLAYGROUND 0a344c9dfc4cf965e66125ebdfbc48b8 -->
 ```rust
 // 假装这是别人的 crate，而不是一个模块
 mod other_crate {
@@ -54,7 +54,7 @@ struct Process {
 
 如果远程类型是一个具有所有公共字段或枚举的结构体，那就是全部内容了。如果远程类型是一个具有一个或多个私有字段的结构体，那么必须为私有字段提供 getter，并提供一个转换来构造远程类型。
 
-!PLAYGROUND 02b8513dfb060b6580f998bac5a04a1a
+<!-- !PLAYGROUND 02b8513dfb060b6580f998bac5a04a1a -->
 ```rust
 // 假装这是别人的 crate，而不是一个模块
 mod other_crate {
@@ -143,7 +143,7 @@ struct DurationDef {
 
 知道这些，生成的方法可以通过传递一个 `Deserializer` 实现来直接调用。
 
-!PLAYGROUND 29cadbd640a231d5703564a666b0bc85
+<!-- !PLAYGROUND 29cadbd640a231d5703564a666b0bc85 -->
 ```rust
 # #![allow(dead_code)]
 #
@@ -168,7 +168,7 @@ let dur = DurationDef::deserialize(&mut de)?;
 
 另外我们可以编写一个顶层的 newtype 包装器作为私有助手来反序列化远程类型。
 
-!PLAYGROUND 159da6ebf3a3573b8bd7f3bc2246026c
+<!-- !PLAYGROUND 159da6ebf3a3573b8bd7f3bc2246026c -->
 ```rust
 # #![allow(dead_code)]
 #

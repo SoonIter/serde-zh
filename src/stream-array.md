@@ -2,7 +2,7 @@
 
 假设我们有一个整数数组，我们想要找出最大值，而不需要一次将整个数组全部保存在内存中。这种方法可以被调整用于处理各种需要在反序列化时处理数据而不是之后的情况。
 
-!PLAYGROUND 270186a56b8321704dc45001fdfa3c92
+<!-- !PLAYGROUND 270186a56b8321704dc45001fdfa3c92 -->
 ```rust
 use serde::{Deserialize, Deserializer};
 use serde::de::{self, Visitor, SeqAccess};

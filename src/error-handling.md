@@ -20,7 +20,7 @@
 [`ser::Error`]: https://docs.rs/serde/1/serde/ser/trait.Error.html
 [data model]: data-model.md
 
-!FILENAME src/error.rs
+<!-- !FILENAME src/error.rs -->
 ```rust
 # macro_rules! ignore {
 #     ($($tt:tt)*) => {}

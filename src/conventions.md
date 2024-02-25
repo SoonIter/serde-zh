@@ -17,7 +17,7 @@
 
 一个基本的数据格式开始如下。这三个模块将在接下来的页面中更详细地讨论。
 
-!FILENAME src/lib.rs
+<!-- !FILENAME src/lib.rs -->
 ```rust
 # macro_rules! modules {
 #     (mod de) => {

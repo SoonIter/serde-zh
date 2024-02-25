@@ -1,8 +1,21 @@
 [book]
+title = "serde-zh"
 authors = [
   "SoonIter",
 ]
+description = "serde-rs.github.io 的中文翻译版"
 language = "zh"
+text-direction = "ltr"
 multilingual = false
 src = "src"
-title = "serde-cn"
+
+[rust]
+edition = "2018"
+
+[output.html]
+git-repository-url = "https://github.com/serde-rs/serde"
+edit-url-template = "https://github.com/SoonIter/serde-zh/edit/main/{path}"
+
+[output.html.playground]
+editable = true
+line-numbers = true

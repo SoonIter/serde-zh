@@ -18,7 +18,7 @@
 [Deserializer lifetimes]: lifetimes.md
 [Serde 的数据模型]: data-model.md
 
-!FILENAME src/de.rs
+<!-- !FILENAME src/de.rs -->
 ```rust
 # mod error {
 #     use std;

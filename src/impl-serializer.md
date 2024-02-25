@@ -9,7 +9,7 @@
 [`Serializer`]: https://docs.rs/serde/1/serde/trait.Serializer.html
 [Serde 数据模型]: data-model.md
 
-!FILENAME src/ser.rs
+<!-- !FILENAME src/ser.rs -->
 
 ```rust
 # mod error {
