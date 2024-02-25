@@ -1,0 +1,8 @@
+[book]
+authors = [
+  "SoonIter",
+]
+language = "zh"
+multilingual = false
+src = "src"
+title = "serde-cn"
