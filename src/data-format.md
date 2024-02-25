@@ -1,30 +1,23 @@
-# Writing a data format
+# 编写一个数据格式
 
-The most important thing to understand before writing a data format is that
-**Serde is not a parsing library**. Nothing in Serde is going to help you parse
-whatever format you are implementing. The role of Serde is very specific:
+在编写数据格式之前最重要的一点是要明白**Serde 不是一个解析库**。Serde 中没有任何功能能够帮助您解析任何格式。Serde 的作用非常明确：
 
-- **Serialization** — taking arbitrary data structures from the user and
-  rendering them in the format with maximum efficiency.
-- **Deserialization** — interpreting the data that you parse into data
-  structures of the user's choice with maximum efficiency.
+- **序列化** — 接受用户提供的任意数据结构并以最高效的方式将其呈现为指定格式。
+- **反序列化** — 将解析的数据解释为用户选择的数据结构，并以最高效的方式处理。
 
-Parsing is neither of these things and you will either be writing parsing code
-from scratch or using a parsing library to implement your Deserializer.
+解析不是上述两者之一，您要么需要从头开始编写解析代码，要么使用解析库来实现您的 Deserializer。
 
-The second most important thing to understand is the [**Serde data model**].
+第二个最重要的事情是理解 [**Serde 数据模型**]。
 
-[**Serde data model**]: data-model.md
+[**Serde 数据模型**]: data-model.md
 
-The following pages walk through a basic but functional JSON serializer and
-deserializer implemented using Serde.
+以下页面将引导您通过使用 Serde 实现的一个基本但功能齐全的 JSON 序列化器和反序列化器。
 
-- [Conventions for what to export at the root of the crate](conventions.md)
-- [Serde error traits and error handling](error-handling.md)
-- [Implementing a Serializer](impl-serializer.md)
-- [Implementing a Deserializer](impl-deserializer.md)
+- [根目录导出约定](conventions.md)
+- [Serde 错误 trait 和错误处理](error-handling.md)
+- [实现一个 Serializer](impl-serializer.md)
+- [实现一个 Deserializer](impl-deserializer.md)
 
-You can find these four source files all together as a buildable crate in [this
-GitHub repository].
+您可以在 [这个 GitHub 仓库] 中找到这四个源代码文件，它们组合在一起可以构建一个完整的 crate。
 
-[this GitHub repository]: https://github.com/serde-rs/example-format
+[这个 GitHub 仓库]: https://github.com/serde-rs/example-format

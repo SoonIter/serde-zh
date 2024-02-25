@@ -12,7 +12,7 @@
     * [实现 Serialize](impl-serialize.md)
     * [实现 Deserialize](impl-deserialize.md)
     * [单元测试](unit-testing.md)
-* [写一个数据格式(data format)](data-format.md)
+* [编写一个数据格式](data-format.md)
     * [约定(Conventions)](conventions.md)
     * [错误处理(Error handling)](error-handling.md)
     * [实现一个 Serializer](impl-serializer.md)
