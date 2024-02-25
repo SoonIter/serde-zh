@@ -16,6 +16,10 @@ edition = "2018"
 git-repository-url = "https://github.com/serde-rs/serde"
 edit-url-template = "https://github.com/SoonIter/serde-zh/edit/main/{path}"
 
+[output.html.print]
+enable = false    # include support for printable output
+page-break = false # insert page-break after each chapter
+
 [output.html.playground]
 editable = true
 line-numbers = true
