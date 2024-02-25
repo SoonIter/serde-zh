@@ -1,4 +1,4 @@
-# 实现 Serializer
+# 实现一个 Serializer
 
 此页面提供了使用 Serde 实现 JSON 序列化器基本功能的实现。
 
