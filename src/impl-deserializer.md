@@ -15,7 +15,7 @@
 [`Deserializer`]: https://docs.rs/serde/1/serde/de/trait.Deserializer.html
 [`Visitor`]: https://docs.rs/serde/1/serde/de/trait.Visitor.html
 [`forward_to_deserialize_any!`]: https://docs.rs/serde/1/serde/macro.forward_to_deserialize_any.html
-[Deserializer lifetimes]: lifetimes.md
+[Deserializer 生命周期]: lifetimes.md
 [Serde 的数据模型]: data-model.md
 
 <!-- !FILENAME src/de.rs -->
