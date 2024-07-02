@@ -25,7 +25,7 @@
     * [结构体扁平化(Struct flattening)](attr-flatten.md)
     * [手写泛型类型边界(generic type bounds)](attr-bound.md)
     * [为自定义 map 类型实现 Deserialize](deserialize-map.md)
-    * [无缓冲的 values 数组](stream-array.md)
+    * [无 buffer 的 values 数组](stream-array.md)
     * [将 enum 序列化为 number](enum-number.md)
     * [将字段序列化成 camelCase](attr-rename.md)
     * [跳过序列化字段](attr-skip-serializing.md)
